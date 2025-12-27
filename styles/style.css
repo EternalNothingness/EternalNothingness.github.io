@@ -1,0 +1,45 @@
+html {
+  /* px means "pixels". The base font size is now 18 pixels high */
+  font-size: 24px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Metal Mania", system-ui;
+  background-color: #00539f;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 3px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
